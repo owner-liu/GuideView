@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'// 新增`
+//apply plugin: 'com.novoda.bintray-release'// 新增`
 
 android {
     compileSdkVersion 28
@@ -25,18 +25,18 @@ dependencies {
 
 }
 
-publish {// 新增
-
-    userOrg = 'binioter'// 注册bintray时的username
-
-    groupId = 'com.binioter'// 项目包名
-
-    artifactId = 'guideview'// 项目名
-
-    publishVersion = '1.0.0'// 发布版本号
-
-    desc = 'A mask guide component for novice guide'// 项目描述，可选项
-
-    website = 'https://github.com/binIoter/GuideView'// 项目站点，可选项
-
-}
+//publish {// 新增
+//
+//    userOrg = 'binioter'// 注册bintray时的username
+//
+//    groupId = 'com.binioter'// 项目包名
+//
+//    artifactId = 'guideview'// 项目名
+//
+//    publishVersion = '1.0.0'// 发布版本号
+//
+//    desc = 'A mask guide component for novice guide'// 项目描述，可选项
+//
+//    website = 'https://github.com/binIoter/GuideView'// 项目站点，可选项
+//
+//}
